@@ -60,7 +60,7 @@ div.down {
   bottom: 50px;
   position: absolute;
   text-shadow: 1px 2px rgba(0,0,0,.5);
-  font-size: 4em;
+  font-size: 6em;
 }
 
 div.down a {
@@ -72,7 +72,7 @@ div.down a {
 
 div.down a:hover {
   color: white;
-  font-size: 2em;
+  font-size: 1.75em;
   cursor: pointer;
   background: none;
 }
@@ -103,7 +103,7 @@ div#library img:hover {
 
 div#book {
   background-color: rgba(0,0,0,.5);
-  padding: 0 0 50px 0;
+  padding: 50px 0;
   opacity: 1;
   transition: opacity 1s;
 }
@@ -116,8 +116,9 @@ div#book h2 {
 div#book p {
   width: 80%;
   margin: 0 auto;
-  text-align: left;
+  text-align: justify;
   text-indent: 5%;
+  text-justify: inter-word;
 }
 
 div#book p.book-links {
@@ -162,14 +163,10 @@ a {
   transition: color .5s;
   transition: background .5s;
   transition: font-size .5s;
-  color: #333;
-  border-bottom: 2px solid #aaa;
 }
 
 a:hover {
-  color: white;
-  background: #aaa;
-  border-bottom: 2px solid #aaa;
+  text-decoration: none;
 }
 
 div.footer {
@@ -181,11 +178,11 @@ div.footer {
 div.footer a {
   text-decoration: none;
   color: white;
-  border: none;
+  transition: color .5s;
 }
 
 div.footer a:hover {
-  border-bottom: 1px solid white;
+  color: #aaa;
 }
 
 /********** Large devices **********/
