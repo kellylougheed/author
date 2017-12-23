@@ -7,58 +7,58 @@ var book = document.getElementById("book");
 
 gym.addEventListener("click", function(event) {
 
-	gym.style.filter = "brightness(100%)";
+	gym.style.filter = "brightness(100%) sepia(0%)";
 
-	dorm.style.filter = "brightness(30%)";
-	voyage.style.filter = "brightness(30%)";
-	cads.style.filter = "brightness(30%)";
+	dorm.style.filter = "brightness(30%) sepia(100%)";
+	voyage.style.filter = "brightness(30%) sepia(100%)";
+	cads.style.filter = "brightness(30%) sepia(100%)";
 	
 	book.style.opacity = 0;
+
 	setTimeout(gymHTML, 1000);
 });
 
 dorm.addEventListener("click", function(event) {
 
-	gym.style.filter = "brightness(30%)";
+	gym.style.filter = "brightness(30%) sepia(100%)";
 
-	dorm.style.filter = "brightness(100%)";
+	dorm.style.filter = "brightness(100%) sepia(0%)";
 
-	voyage.style.filter = "brightness(30%)";
-	cads.style.filter = "brightness(30%)";
+	voyage.style.filter = "brightness(30%) sepia(100%)";
+	cads.style.filter = "brightness(30%) sepia(100%)";
 
 	book.style.opacity = 0;
-	setTimeout(dormHTML, 1000);
 
-	resetCSStransitions();
+	setTimeout(dormHTML, 1000);
 });
 
 voyage.addEventListener("click", function(event) {
 
-	gym.style.filter = "brightness(30%)";
-	dorm.style.filter = "brightness(30%)";
+	gym.style.filter = "brightness(30%) sepia(100%)";
+	dorm.style.filter = "brightness(30%) sepia(100%)";
 
-	voyage.style.filter = "brightness(100%)";
+	voyage.style.filter = "brightness(100%) sepia(0%)";
 
-	cads.style.filter = "brightness(30%)";
+	cads.style.filter = "brightness(30%) sepia(100%)";
 
 	book.style.opacity = 0;
+
 	setTimeout(voyageHTML, 1000);
 
-	resetCSStransitions();
 });
 
 cads.addEventListener("click", function(event) {
 
-	gym.style.filter = "brightness(30%)";
-	dorm.style.filter = "brightness(30%)";
-	voyage.style.filter = "brightness(30%)";
+	gym.style.filter = "brightness(30%) sepia(100%)";
+	dorm.style.filter = "brightness(30%) sepia(100%)";
+	voyage.style.filter = "brightness(30%) sepia(100%)";
 
-	cads.style.filter = "brightness(100%)";
+	cads.style.filter = "brightness(100%) sepia(0%)";
 
 	book.style.opacity = 0;
+	
 	setTimeout(cadsHTML, 1000);
 
-	resetCSStransitions();
 });
 
 function gymHTML() {
@@ -105,11 +105,4 @@ function cadsHTML() {
 	newHTML += "<p>Or does another vampire walk hidden among Velma's peers?</p>";
 	book.innerHTML = newHTML;
 	book.style.opacity = 1;
-}
-
-function resetCSStransitions() {
-	var images = [gym, dorm, voyage, cads];
-	for (var i = 0; i < images.length; i++) {
-		images[i].style.transition = "filter .5s";
-	}
 }

@@ -4,7 +4,7 @@
 
 body {
   color: #ccc;
-  background: url(dark_embroidery.png);
+  background: url(http://kellylougheed.com/images/backgrounds/dark_embroidery.png);
   font-family: 'Raleway', georgia;
   font-weight: 100;
   letter-spacing: 2px;
@@ -12,7 +12,7 @@ body {
 }
 
 div.header {
-  background: url(books.jpg); 
+  background: url(http://kellylougheed.com/images/backgrounds/library.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -87,17 +87,18 @@ p {
 }
 
 div#library img {
-  border: 1px solid rgba(0,0,0,.5);
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0,0,0,.5);
   transition: filter .5s;
 }
 
 img#trio2, img#trio3, img#first {
-  filter: brightness(30%);
+  filter: brightness(30%) sepia(100%);
 }
 
 div#library img:hover {
-  filter: brightness(100%);
+  filter: brightness(100%) !important;
   cursor: pointer;
 }
 
@@ -152,6 +153,7 @@ img#profile {
   border: none;
   border-radius: 10%;
   margin: 0 25px 25px 25px;
+  filter: sepia(50%) drop-shadow(5px 5px 5px rgba(0,0,0,0.7));
 }
 
 .responsive {
