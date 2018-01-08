@@ -83,7 +83,7 @@
 
 <div class="footer">
   <p>
-    © Kelly Lougheed 2017. All rights reserved.
+    © Kelly Lougheed <?php echo date("Y"); ?>. All rights reserved.
     <a href="https://github.com/kellylougheed/author" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a>
   </p>
 </div>
