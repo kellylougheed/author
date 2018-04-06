@@ -55,8 +55,8 @@
     <h2>The Graveyard Gymnasium</h2>
 
     <p class="book-links">
-      <a href="#">Publisher</a>
-      <a href="#">Amazon</a>
+      <a href="http://www.mundania.com/book.php?title=The+Graveyard+Gymnasium" target="_blank">Publisher</a>
+      <a href="https://www.amazon.com/Graveyard-Gymnasium-Kelly-Lougheed-ebook/dp/B005CQ6MJU/" target="_blank">Amazon</a>
     </p>
 
     <p>It's difficult to be a rebel at an all-girls boarding school like Hawthorn, but Charity Hooper tries her hardest, smuggling food into the library and favoring CliffsNotes over boring volumes of literature. In fact, if Hawthorn weren't an all-girls school, she feels certain she would be having a tempestuous affair with a dangerous rogue who copied all his math homework answers from the back of the book.</p>
