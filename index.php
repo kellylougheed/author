@@ -75,7 +75,7 @@
 </div>
 <div class="col-lg-9 col-md-8 col-sm-12">
   <p class="about">
-    Kelly Lougheed's young adult novels are inspired by her own experience at an all-girls school in California (minus the vampires). While earning a degree in Classics (Latin &amp; Greek) at Brown University, she wrote these novels as a satirization of YA vampire stories. She has taught Latin at various independent schools around the country, and she now studies and teaches computer science in California. If she were to write another novel, it would probably involve hacking and/or using computers to decipher a mysterious Latin inscription.
+    Kelly Lougheed's young adult novels are inspired by her own experience at an all-girls school in California (minus the vampires). While studying at Brown University, she wrote these novels as a satirization of YA vampire stories. Her writing career was tragically cut short when she enrolled in a Greek class which required a lot of studying.
   </p>
 </div>
 
